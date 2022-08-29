@@ -1,0 +1,64 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    font-weight: 400;
+}
+
+header{
+    display: flex;                              /*item ko ek row me le aata hai*/
+    justify-content: space-between;             /*item ko saparate krta hai*/
+    margin: 0 3rem;                             /*0 from top & bottom ,,3rem from left right*/
+}
+
+nav{
+    width: 20rem;                                /*navigation bar ka width badh rahe hai*/
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;                             /* dot hatayege unorder list se*/
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration: none;                         /*color change ho raha tha cursor le jaane pr to use hataya*/
+    color: black;
+}
+
+.showcase-img{
+    width: 95vw;                                 /*vw(view width) screen ke hisab se width change karega 95vw means 95% of screen cover*/
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+
+.content{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+a:hover{
+    color: lightpink;
+}
